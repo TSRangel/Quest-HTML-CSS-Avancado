@@ -1,0 +1,65 @@
+@media (max-width: 450px) {
+
+    body {
+        background: url(../img/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        background-color: var(--color-purple);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 50px 30px;
+    }
+
+    .header img {
+        width: 50%;
+    }
+
+    .image img {
+        width: calc(100% - 20px);
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info .subtitulo {
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
+    .info p {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .info .btn {
+        margin-top: 20px;
+    }
+
+    .footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .menu {
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+}
